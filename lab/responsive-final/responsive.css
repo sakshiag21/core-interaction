@@ -1,0 +1,96 @@
+*{box-sizing: border-box;}
+
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: url(r3.jpg) no-repeat center center fixed;
+    /*text-align: center;*/
+
+}
+
+H1{font-family: 'PT Sans Narrow', sans-serif;
+text-align: center;
+font-size: 50px;
+/*margin-top: -70px;*/
+/*color: #cf544c;*/
+}
+
+P{font-family: open sans;
+font-size: 22px;
+line-height: 34px;
+text-align: justify;
+font-weight: lighter;
+}
+
+img{width: 100%;
+}
+
+.theme{
+  height: 100%;
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.images section{
+  flex: 50%;
+  /*margin-left: 50px;
+  margin-right: 50px;*/
+
+}
+
+.images{
+  display: flex;
+}
+
+@media (max-width: 1200px){
+
+  .images section{
+    flex: none;
+}
+
+.images{
+  display: block;
+}
+
+  p{
+    width: 100%;
+  }
+
+  body{
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 0;
+      margin-bottom: 0;
+}
+
+@media (max-width: 768px){
+
+  .images section{
+    flex: none;
+}
+
+.images{
+  display: block;
+}
+
+  p{
+    width: 100%;
+  }
+
+  .theme{
+    height: 100%;
+    background-color: white;
+    padding: 50px;
+  }
+
+  body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: url(r3.jpg) no-repeat center center fixed;
+}

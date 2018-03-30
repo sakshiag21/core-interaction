@@ -1,0 +1,50 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+    /*text-align: center;*/
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+H1{font-family: 'PT Sans Narrow', sans-serif;
+text-align: center;
+font-size: 50px;
+/*color: #cf544c;*/
+}
+
+P{font-family: open sans;
+font-size: 22px;
+line-height: 34px;
+text-align: justify;
+font-weight: lighter;
+}
+
+img{width: 100%;
+}
+
+@media (max-width: 1200px){
+  body{
+    margin: 90px;
+  }
+
+  h1{
+    font-size: 70px;
+  }
+  p{
+    color: teal;
+  }
+}
+
+@media (max-width: 900px){
+  body{
+    margin: 90px;
+  }
+
+  h1{
+    font-size: 45px;
+  }
+  p{
+    color: green;
+  }
+  
+}

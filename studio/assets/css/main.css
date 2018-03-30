@@ -1,0 +1,686 @@
+
+body{
+    /*max-width: 1200px;*/
+    margin: 0;
+    /*text-align: center;*/
+    /*margin-top: 150px;*/
+    /*margin-bottom: 150px;*/
+
+}
+
+H1{font-family: 'PT Sans Narrow', sans-serif;
+text-align: center;
+font-size: 50px;
+/*color: #cf544c;*/
+}
+
+P{font-family: open sans;
+font-size: 22px;
+line-height: 34px;
+text-align: justify;
+font-weight: lighter;
+}
+
+img{width: 100%;
+}
+
+A{font-size: 30PX;
+font-family: 'PT Sans Narrow', sans-serif;
+letter-spacing: 2px;
+text-decoration: none;
+color: #17647c;}
+
+a:hover {
+    color: #cf544c;
+}
+
+.index{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.index1{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 700px;
+  background-color: white;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.index2{
+
+  background-color: rgb(38,50,64);
+  /*height: 150px;*/
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  opacity: .85;
+}
+
+.index3{
+  margin-top: 50px;
+  background-color: rgb(38,50,64);
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  opacity: .85;
+  font-size: 20px;
+  color: white;
+  font-family: open sans;
+  text-align: center;
+  padding: 20px;
+}
+
+.design{
+  font-size: 100px;
+  text-align: left;
+  margin-left: 110px;
+  font-family: 'Playfair Display', serif;
+  line-height: 90px;
+  color: white;
+
+}
+
+.about{
+  max-width: 700px;
+  margin-left: 600px;
+  margin-top: -250px;
+  color:white;
+}
+
+.icon{
+  height: 30px;
+width: auto;
+ margin-top: -500px;
+}
+
+.iconalign{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.studio{
+margin-left: -100px;
+}
+
+.theme{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 150px;
+}
+
+.themeimg{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+.air{
+
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 130px;
+  font-size: 160px;
+}
+
+.travelbackground{
+  background-image: url("https://www.italyvacationspecialists.com/blog/wp-content/uploads/2016/09/TREVI-FOUNTAIN.jpg");
+   min-width: 100%;
+   max-height: 1000px;
+   min-height: 1000px;
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -160px;
+      position: absolute;
+      margin-top:-10px;
+}
+
+
+.travelhead{
+  margin-left: 100px;
+  margin-right: 150px;
+  margin-top: 1100px;
+  position: relative;
+}
+
+.travel{
+  display: flex;
+  letter-spacing: -.4px;
+  margin-left: 100px;
+  margin-right: 150px;
+  position: relative;
+}
+
+.travel3{
+  letter-spacing: -1PX;
+}
+.travel section{
+padding-left: 50px;
+flex: 50%;
+}
+
+.travel-image{
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.travel-2{
+  margin-left: 50px;
+  margin-top: -5px;
+}
+
+.condeheader{
+font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  letter-spacing:2PX;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 400px;
+
+}
+
+HR{
+  width: 820px;
+  height: 1px;
+}
+
+.condeheader2{
+  font-family: 'Playfair Display', serif;
+  font-size: 200px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  margin-top: -60px;
+
+}
+
+.condenast{
+background-image: url("https://www.holidayguru.ie/wp-content/uploads/2017/01/Berlin-Germany-Shutterstock-161067611.jpg");
+ max-width: 100%;
+ max-height: 1000px;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -13PX;
+}
+/*.rome{
+    max-width: 100%;
+    position: absolute;
+}*/
+
+.condespace{
+  height: 700px;
+}
+
+.conde{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 150px;
+}
+
+.conde section{
+  padding-left: 50px;
+  flex: 50%;
+}
+
+.conde-video{
+text-align: center;
+}
+
+.bottommargin{
+  margin-bottom: 100px;
+}
+
+.geogcoverimg{
+  background-image: url("https://i.ytimg.com/vi/M_rm6Mi7LVQ/maxresdefault.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  min-height: 1000px;
+   background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.geoghead{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 1100px;
+
+}
+
+.geog{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 150px;
+}
+
+.geog section{
+padding-left: 50px;
+flex: 50%;
+}
+
+.geog-image{
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.geog-image section{
+  flex: 50%;
+  padding-top: 50px;
+  margin: 10px;
+}
+
+.geog-video{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.geog-caption{
+  max-width: 900px;
+  font-family: open sans;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: justify;
+  font-weight: normal;
+  margin-left: 400px;
+
+}
+
+.geog5{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.bottom{
+  margin-bottom: 150px;
+}
+
+.lvimg{
+  background-image: url("https://grazia.com.au/wp-content/uploads/2017/12/Tropical02.jpg");
+   max-width: 100%;
+   min-height: 1000px;
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.new{
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.new section{
+  flex: 50%;
+  padding-left: 50px;
+}
+
+.nyc-video{
+text-align: center;
+}
+
+.northimg{
+  background-image: url("https://www.skcript.com/svrmedia/heroes/christoph-niemann-natgeo-series-skcript.png");
+   max-width: 100%;
+   max-height: 100%;
+   position: absolute;
+   min-height: 1000px;
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.northcaption{
+  margin-left: 150px;
+  margin-right: 150px;
+margin-top: 1100px;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  opacity: 0.8;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+  height: 1000px;
+}
+
+.overlay5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(77,92,127);
+  opacity: 0.8;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(59,80,117);
+  opacity: 0.8;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: purple;
+  opacity: 0.8;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(247,201,22);
+  opacity: 0.8;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+
+
+
+
+.lvimg:hover .overlay {
+  transform: scale(1)
+}
+
+.northimg:hover .overlay5 {
+  transform: scale(1)
+}
+
+.geogcoverimg:hover .overlay3 {
+  transform: scale(1)
+}
+
+.condenast:hover .overlay2 {
+  transform: scale(1)
+}
+
+.travelbackground:hover .overlay1 {
+  transform: scale(1)
+}
+
+
+
+.text {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+
+.HRLV{
+  max-width: 250px;
+  text-align: center;
+}
+
+.box{
+  border: solid 2px white;
+  padding: 20px;
+  font-size: 100px;
+  text-transform: lowercase;
+  font-family: 'Playfair Display', serif;
+}
+
+.box1{
+  border: solid 2px white;
+  padding: 20px;
+  padding-bottom: 40px;
+  font-size: 100px;
+  line-height: 90PX;
+  text-transform: lowercase;
+  font-family: 'Playfair Display', serif;
+
+}
+
+  video.vidhome {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        /*min-height: 105%;*/
+        /*max-width: 100%;*/
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translateX(-50%) translateY(-50%);
+     background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+      background-size: cover;
+      transition: 1s opacity;
+    }
+    .stopfade {
+       opacity: .5;
+    }
+  }
+
+  .stopfade {
+     opacity: .5;
+  }
+
+.stopfade {
+   opacity: .5;
+}
+
+.hometag{
+  position: relative;
+font-family: 'Playfair Display', serif;
+font-size: 70px;
+color: white;
+margin-top: 20%;
+}
+
+.hometag2{
+  position: relative;
+font-family: 'Playfair Display', serif;
+font-size: 100px;
+color: black;
+left:-3.5%;
+margin: 0;
+}
+
+.bottom{
+  margin-bottom: 150px;
+}
+
+.bottom1{
+  height: 150px;
+}
+
+.bottom2{
+  height: 50px;
+}
+
+
+
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: -100px;
+}
+
+.arrow2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: -2600px;
+}
+
+.container {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
+
+.lvhome{
+  width:35%;
+  padding: 0.2%;
+  margin-left: -65px;
+}
+.geoghome{
+  width:30.5%;
+  padding: 0.2%;
+  margin-top: -130px;
+}
+
+.top3{
+  text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: -100px;
+color: grey;
+}
+
+#txt{
+  font-size: 35px;
+  font-family: open sans;
+  color: black;
+  text-align: center;
+  margin-left: -120px;
+}
+.time{
+  color: grey;
+  font-size: 20px;
+  font-family: open sans;
+  text-align: center;
+  margin-left: -120px;
+}
+
+main {
+	width: 100%;
+	height: 120vh;
+	overflow: scroll;
+	position: relative;
+	background-color: hsl(800,60%,50%)
+}

@@ -1,0 +1,25 @@
+body{
+  margin-left:100px;
+  margin-right: 100px;
+  background-color: #DEE9FF;
+  }
+
+  h1{
+  font-family: 'PT Sans Narrow', sans-serif;
+  /*text-align: center;*/
+  font-size: 150px;
+}
+
+a{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover{
+  color:grey;
+}
+main{
+  text-align: center;
+}

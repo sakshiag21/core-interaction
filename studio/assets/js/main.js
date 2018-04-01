@@ -46,14 +46,40 @@ function checkTime(i) {
     return i;
 }
 
-var today = new Date();
-var str = today.toGMTString();  // deprecated! use toUTCString()
+// var today = new Date();
+// var str = today.toGMTString();  // deprecated! use toUTCString()
+//
+// console.log(str);               // Mon, 18 Dec 1995 17:28:35 GMT
+//
+// var main = document.querySelector('main')
+//
+// main.addEventListener('scroll', function(event) {
+// 	main.style.backgroundColor = 'hsl(' + main.scrollTop + ',100%, 50%)'
+//
+// })
 
-console.log(str);               // Mon, 18 Dec 1995 17:28:35 GMT
-
+var block = document.querySelector('.block')
 var main = document.querySelector('main')
 
-main.addEventListener('scroll', function(event) {
-	main.style.backgroundColor = 'hsl(' + main.scrollTop + ',100%, 50%)'
+var startR = 255
+var startG = 255
+var startB = 255
 
+var endR = 70
+var endG = 70
+var endB = 70
+
+
+
+main.addEventListener('scroll', function(event) {
+
+	// mapping between two values
+   var r = (main.scrollTop - 0) / ((main.scrollHeight - main.clientHeight) - 0) * (endR - startR) + startR
+
+	var g = (main.scrollTop - 0) / ((main.scrollHeight - main.clientHeight) - 0) * (endG - startG) + startG
+
+  	var b = (main.scrollTop - 0) / ((main.scrollHeight - main.clientHeight) - 0) * (endG - startB) + startB
+
+
+   main.style.backgroundColor = 'rgb(' + Math.round(r) + ', ' + Math.round(g) + ', ' +Math.round(b);')'
 })

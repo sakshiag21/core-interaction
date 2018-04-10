@@ -1,10 +1,9 @@
 var vid = document.getElementById("bgvid");
-var pauseButton = document.querySelector("#polina button");
+
 
 if (window.matchMedia('(prefers-reduced-motion)').matches) {
     vid.removeAttribute("autoplay");
-    vid.pause();
-    pauseButton.innerHTML = "Paused";
+
 }
 
 function vidFade() {
@@ -69,8 +68,6 @@ var endR = 70
 var endG = 70
 var endB = 70
 
-
-
 main.addEventListener('scroll', function(event) {
 
 	// mapping between two values
@@ -83,3 +80,50 @@ main.addEventListener('scroll', function(event) {
 
    main.style.backgroundColor = 'rgb(' + Math.round(r) + ', ' + Math.round(g) + ', ' +Math.round(b);')'
 })
+
+// changing text based on time every 5 seconds
+
+// var message = document.querySelector('.message')
+//
+// var greetings = ['hello', 'bonjour', 'hola']
+// var counter = 0
+//
+// setInterval( function() {
+//
+// 	if (counter < greetings.length - 1) {
+// 		counter ++
+// 	} else {
+// 		counter = 0
+// 	}
+//
+// 	message.innerText = greetings[counter]
+//
+// }, 500)
+
+
+var nyTime = new Date();
+var londonTime = new Date();
+var nyTime = new Date();
+var sydneyTime = new Date();
+var tokyoTime = new Date();
+
+
+
+londonTime.setHours(nyTime.getHours() + 5)
+
+document.getElementById("demo").innerHTML = londonTime;
+
+
+nyTime.setHours(nyTime.getHours() + 0)
+
+document.getElementById("demo1").innerHTML = nyTime;
+
+
+sydneyTime.setHours(nyTime.getHours() + 14)
+
+document.getElementById("demo2").innerHTML = sydneyTime;
+
+
+tokyoTime.setHours(nyTime.getHours() + 13)
+
+document.getElementById("demo3").innerHTML = tokyoTime;

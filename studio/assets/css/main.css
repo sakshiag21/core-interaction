@@ -24,7 +24,7 @@ font-weight: lighter;
 blockquote{font-family: 'PT Sans Narrow', sans-serif;
 font-size: 32px;
 line-height: 34px;
-text-align: justify;
+/*text-align: justify;*/
 font-weight: lighter;
 font-weight: bold;
 letter-spacing:1px;
@@ -97,6 +97,7 @@ a:hover {
   margin-left: 600px;
   margin-top: -250px;
   color:white;
+  text-align: left;
 }
 
 .icon{
@@ -363,10 +364,6 @@ text-align: center;
   margin-right: 150px;
 margin-top: 100px;
 }
-
-
-
-
 
 .overlay {
   position: absolute;
@@ -760,11 +757,73 @@ margin-top: 0px;
 font-weight: bold;
 }
 
-
 .menu.li {
     float: left;
 }
 
 .menulink{
   color: white;
+}
+
+@media (max-width: 900px){
+
+body{
+  margin-left: 1%;
+  margin-right: -18%;
+}
+
+.vidhome{
+  min-height: 100%;
+}
+
+.hometag{
+  font-size: 40px;
+  margin-top: 70%;
+}
+
+.index1{
+  height: 1530px;
+}
+.index1, .index2, .index3{
+  margin:5%;
+}
+
+.hometag2{
+  font-size: 60px;
+  margin-left: -10%;
+}
+
+.archive{
+  line-height: 30px;
+  margin-left: -120px;
+}
+
+.top3{
+  margin-left: -50px;
+  margin-right: -30px;
+}
+
+.lvhome{
+  min-width: 100%;
+}
+.geoghome{
+  min-width: 100%;
+  margin-top: 5%;
+  margin-left: -14%;
+}
+.design{
+  font-size: 80px;
+  line-height: 90%;
+  margin-left: 22%;
+}
+.about{
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  word-spacing: -8px;
+}
+
+.time {
+  visibility: hidden;
 }

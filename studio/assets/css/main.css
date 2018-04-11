@@ -765,7 +765,7 @@ font-weight: bold;
   color: white;
 }
 
-@media (max-width: 900px){
+@media (max-width: 375px){
 
 body{
   margin-left: 1%;

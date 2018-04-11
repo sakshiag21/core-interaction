@@ -765,7 +765,7 @@ font-weight: bold;
   color: white;
 }
 
-@media (max-width: 375px){
+@media only screen and (max-width: 500px){
 
 body{
   margin-left: 1%;
@@ -777,7 +777,8 @@ body{
 }
 
 .hometag{
-  font-size: 40px;
+  color: red;
+  font-size: 90px;
   margin-top: 70%;
 }
 
@@ -844,35 +845,38 @@ color: red;
   flex: none;
   display: block;
   margin-left: 0px;
-  margin-right: 50px;
+  margin-right: 130px;
 }
 
 .air{
   font-size: 100px;
   line-height: 85px;
-  margin-left: 20px;
+  margin-left: -20px;
 }
 
 .titleair{
   font-size: 30px;
-  margin-left: 15px;
+  margin-left: px;
 }
 
 .travel-image{
   flex: none;
   display: block;
+  width: -20%;
 }
 
 .travel-1{
-  width: 210%;
+  width: 180%;
   margin-left: -160px;
 }
 
 .travel-2{
-  width: 210%;
+  width: 180%;
   margin-left: -160px;
 }
 
 .bottom1{
   height:30px;
+}
+
 }

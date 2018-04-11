@@ -827,3 +827,52 @@ body{
 .time {
   visibility: hidden;
 }
+
+.travelbackground{
+  /*min-width: 20%;*/
+  min-height: 300px;
+}
+.overlay1 {
+visibility: hidden;
+}
+
+.box1{
+color: red;
+}
+
+.travel{
+  flex: none;
+  display: block;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.air{
+  font-size: 100px;
+  line-height: 85px;
+  margin-left: 20px;
+}
+
+.titleair{
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.travel-image{
+  flex: none;
+  display: block;
+}
+
+.travel-1{
+  width: 210%;
+  margin-left: -160px;
+}
+
+.travel-2{
+  width: 210%;
+  margin-left: -160px;
+}
+
+.bottom1{
+  height:30px;
+}

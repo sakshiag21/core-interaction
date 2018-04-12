@@ -851,9 +851,9 @@ font-weight: bold;
 }
 
   .air {
-    font-size: 90px;
+    font-size: 60px;
     line-height: 85%;
-    margin-left: -40%;
+    margin-left: -30%;
     margin-top: -100%;
   }
 
@@ -874,7 +874,7 @@ font-weight: bold;
   .titleair{
     font-size: 21px;
     text-align: left;
-    margin-left: -55px;
+    margin-left: -35px;
     margin-right: 25px;
     min-width: 300px;
   }

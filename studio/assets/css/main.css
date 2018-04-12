@@ -781,7 +781,6 @@ body{
 }
 
 .hometag{
-  color: red;
   font-size: 40px;
   margin-top: 70%;
 }
@@ -870,12 +869,12 @@ color: red;
 }
 
 .travel-1{
-  width: 180%;
+  width: 200%;
   margin-left: -160px;
 }
 
 .travel-2{
-  width: 180%;
+  width: 200%;
   margin-left: -160px;
 }
 
@@ -883,4 +882,12 @@ color: red;
   height:30px;
 }
 
+}
+
+@media (max-width: 375px){
+
+  .conde{
+    display: block;
+    flex: none;
+  }
 }

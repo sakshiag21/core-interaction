@@ -864,22 +864,22 @@ font-weight: bold;
   .travel{
     display: block;
     margin-left: -25px;
-    margin-right: 25px;
+    margin-right: 49px;
   }
 
   .travel p{
     font-size: 18px;
   }
 
-  .titleair,{
+  .titleair{
     font-size: 21px;
     text-align: left;
-    margin-left: -65px;
+    margin-left: -55px;
     margin-right: 25px;
     min-width: 300px;
   }
 
-  .travel-image,{
+  .travel-image, .travel-1, .travel2{
     width: 100%;
     display: block;
     margin-left: 0;
@@ -911,11 +911,11 @@ font-weight: bold;
 .conde p{
   font-size: 18px;
   margin-left: -20%;
-  margin-right: -15px;
+  margin-right: 10px;
   margin-top: -10px;
 }
 .conde2{
-  width: 128%;
+  width: 120%;
   margin-left: -27%;
 }
 .conde-video{

@@ -765,7 +765,7 @@ font-weight: bold;
   color: white;
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
 
 body{
   margin-left: 1%;
@@ -786,7 +786,7 @@ body{
 }
 
 .index1{
-  height: 1530px;
+  height: 1150px;
 }
 .index1, .index2, .index3{
   margin:5%;
@@ -802,6 +802,10 @@ body{
   margin-left: -120px;
 }
 
+.archive a{
+  font-size: 22px;
+}
+
 .top3{
   margin-left: -50px;
   margin-right: -30px;
@@ -813,12 +817,12 @@ body{
 .geoghome{
   min-width: 100%;
   margin-top: 5%;
-  margin-left: -16%;
+  margin-left: -20%;
 }
 .design{
   font-size: 80px;
   line-height: 90%;
-  margin-left: 22%;
+  margin-left: 5%;
 }
 .about{
   display: block;
@@ -828,28 +832,29 @@ body{
   word-spacing: -8px;
 }
 
+.travellive{
+  font-size: 35px;
+}
+
 .time {
   visibility: hidden;
 }
 
 .travelbackground{
-  /*min-width: 20%;*/
   min-height: 300px;
 }
 .overlay1 {
 visibility: hidden;
 }
 
-.box1{
-color: red;
-}
-
-.travel{
+.travel, .travel1, .travel2, .travel3{
   flex: none;
   display: block;
   margin-left: 0px;
   margin-right: 130px;
 }
+
+
 
 .air{
   font-size: 100px;
@@ -887,7 +892,19 @@ color: red;
 @media (max-width: 375px){
 
   .conde{
-    display: block;
-    flex: none;
+    display:block;
+    margin-left: 100px;
+    margin-right: 150px;
   }
+
+  .conde section{
+    padding-left: 50px;
+    flex: 0%;
+  }
+
+  .overlay2{
+    visibility: hidden;
+  }
+
+
 }

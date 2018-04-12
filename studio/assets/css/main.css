@@ -17,7 +17,7 @@ font-size: 50px;
 P{font-family: open sans;
 font-size: 22px;
 line-height: 34px;
-text-align: justify;
+text-align: left;
 font-weight: lighter;
 }
 
@@ -147,7 +147,7 @@ margin-left: -100px;
       background-size: cover;
       margin-top: -160px;
       position: absolute;
-      margin-top:-10px;
+      margin-top:-10%;
 }
 
 
@@ -163,12 +163,12 @@ margin-left: -100px;
   letter-spacing: -.4px;
   margin-left: 100px;
   margin-right: 150px;
-  position: relative;
 }
 
 .travel3{
   letter-spacing: -1PX;
 }
+
 .travel section{
 padding-left: 50px;
 flex: 50%;
@@ -219,6 +219,7 @@ background-image: url("https://www.holidayguru.ie/wp-content/uploads/2017/01/Ber
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -13PX;
+    margin-top: -12%;
 }
 /*.rome{
     max-width: 100%;
@@ -257,6 +258,7 @@ text-align: center;
    background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     margin-top: -10%;
 }
 
 .boatimg{
@@ -268,6 +270,8 @@ text-align: center;
    background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     margin-top: -10%;
+
 }
 
 .geoghead{
@@ -331,6 +335,7 @@ flex: 50%;
     background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      margin-top: -12%;
 }
 
 .new{
@@ -378,7 +383,7 @@ margin-top: 100px;
   height: 100%;
   -webkit-transform:scale(0);
   transition: .3s ease;
-  height: 1000px;
+  margin-top: -120px;
 }
 
 .overlay5 {
@@ -419,6 +424,7 @@ margin-top: 100px;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  margin-top: 10px;
   -webkit-transform:scale(0);
   transition: .3s ease;
 }
@@ -767,144 +773,157 @@ font-weight: bold;
 
 @media (max-width: 400px){
 
-body{
-  margin-left: 1%;
-  margin-right: -18%;
-}
-
-.menubar2{
-  visibility: hidden;
-}
-
-.vidhome{
-  min-height: 100%;
-}
-
-.hometag{
-  font-size: 40px;
-  margin-top: 70%;
-}
-
-.index1{
-  height: 1150px;
-}
-.index1, .index2, .index3{
-  margin:5%;
-}
-
-.hometag2{
-  font-size: 60px;
-  margin-left: -10%;
-}
-
-.archive{
-  line-height: 30px;
-  margin-left: -120px;
-}
-
-.archive a{
-  font-size: 22px;
-}
-
-.top3{
-  margin-left: -50px;
-  margin-right: -30px;
-}
-
-.lvhome{
-  min-width: 100%;
-}
-.geoghome{
-  min-width: 100%;
-  margin-top: 5%;
-  margin-left: -20%;
-}
-.design{
-  font-size: 80px;
-  line-height: 90%;
-  margin-left: 5%;
-}
-.about{
-  display: block;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 10%;
-  word-spacing: -8px;
-}
-
-.travellive{
-  font-size: 35px;
-}
-
-.time {
-  visibility: hidden;
-}
-
-.travelbackground{
-  min-height: 300px;
-}
-.overlay1 {
-visibility: hidden;
-}
-
-.travel, .travel1, .travel2, .travel3{
-  flex: none;
-  display: block;
-  margin-left: 0px;
-  margin-right: 130px;
-}
-
-
-
-.air{
-  font-size: 100px;
-  line-height: 85px;
-  margin-left: -20px;
-}
-
-.titleair{
-  font-size: 30px;
-  margin-left: px;
-}
-
-.travel-image{
-  flex: none;
-  display: block;
-  width: -20%;
-}
-
-.travel-1{
-  width: 200%;
-  margin-left: -160px;
-}
-
-.travel-2{
-  width: 200%;
-  margin-left: -160px;
-}
-
-.bottom1{
-  height:30px;
-}
-
-}
-
-@media (max-width: 375px){
-
-  .conde{
-    display:block;
-    margin-left: 100px;
-    margin-right: 150px;
+  body{
+    margin-left: 1%;
+    margin-right: -18%;
   }
 
-  .conde section{
-    padding-left: 50px;
-    flex: 0%;
-  }
-
-  .overlay2{
+  .menubar2{
     visibility: hidden;
   }
 
+  .vidhome{
+    min-height: 100%;
+  }
+
+  .hometag{
+    font-size: 40px;
+    margin-top: 70%;
+  }
+
+  .index1{
+    height: 1150px;
+  }
+  .index1, .index2, .index3{
+    margin:5%;
+  }
+
+  .hometag2{
+    font-size: 60px;
+    margin-left: -10%;
+  }
+
+  .archive{
+    line-height: 30px;
+    margin-left: -120px;
+  }
+
+  .archive a{
+    font-size: 22px;
+  }
+
+  .top3{
+    margin-left: -50px;
+    margin-right: -30px;
+  }
+
+  .lvhome{
+    min-width: 100%;
+  }
+  .geoghome{
+    min-width: 100%;
+    margin-top: 5%;
+    margin-left: -20%;
+  }
+  .design{
+    font-size: 80px;
+    line-height: 90%;
+    margin-left: 5%;
+  }
+  .about{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    word-spacing: -8px;
+  }
+
+  .travellive{
+    font-size: 35px;
+  }
+
+  .time {
+    visibility: hidden;
+  }
+
+.travelbackground, .condenast{
+  max-width: 100%;
+}
+
+  .air {
+    font-size: 90px;
+    line-height: 85%;
+    margin-left: -40%;
+    margin-top: -100%;
+  }
+
+  .menu, .overlay1, .overlay2{
+    visibility: hidden;
+  }
+
+  .travel{
+    display: block;
+    margin-left: -25px;
+    margin-right: 25px;
+  }
+
+  .travel p{
+    font-size: 18px;
+  }
+
+  .titleair,{
+    font-size: 21px;
+    text-align: left;
+    margin-left: -65px;
+    margin-right: 25px;
+    min-width: 300px;
+  }
+
+  .travel-image,{
+    width: 100%;
+    display: block;
+    margin-left: 0;
+  }
+
+  .bottom1{
+    height: 20px;
+  }
+
+  .condeheader{
+    font-size: 30px;
+    margin-top: -10%;
+  }
+  .condeheader2{
+    font-size: 90px;
+    margin-top: -7%;
+  }
+
+  hr{
+    width: 350px;
+     margin-top: -2px;
+  }
+.conde{
+  font-size: 21px;
+  min-width: 350px;
+  margin-left: 9%;
+  display: block;
+}
+.conde p{
+  font-size: 18px;
+  margin-left: -20%;
+  margin-right: -15px;
+  margin-top: -10px;
+}
+.conde2{
+  width: 128%;
+  margin-left: -27%;
+}
+.conde-video{
+  margin-left: -30px;
+  width:113%; margin-top: -10px;
+}
+.bottommargin{
+  height: 150px;
+}
 
 }

@@ -63,7 +63,7 @@
         <a href="03-nationalgeography.html"><img class="geoghome" src="https://s7d9.scene7.com/is/image/NationalGeographic/6200645">
           <a href="05-north.html"><img class="geoghome" src="https://pbs.twimg.com/media/C89_q_XXUAERF5J.jpg"></a>
         <BR>
-          <a href="index.html"><div class="archive">ARCHIVE TO ALL POSTS</div></a>
+          <a href="index.html"><div class="archive">ISSUES</div></a>
         </p>
 
         </div>
@@ -132,33 +132,24 @@
         </script>
 
         <script>
+        var myVar = setInterval(function(){ myTime() }, 1000);
+
+        function myTime() {
         var nyTime = new Date();
-var londonTime = new Date();
-var nyTime = new Date();
-var sydneyTime = new Date();
-var tokyoTime = new Date();
+        var londonTime = new Date();
+        var sydneyTime = new Date();
+        var tokyoTime = new Date();
 
+        var l = londonTime.setHours(nyTime.getHours() + 5);
+        var s = sydneyTime.setHours(nyTime.getHours() + 14);
+        var t = tokyoTime.setHours(nyTime.getHours() + 13);
 
-
-londonTime.setHours(nyTime.getHours() + 5)
-
-document.getElementById("demo").innerHTML = londonTime;
-
-
-nyTime.setHours(nyTime.getHours() + 0)
-
-document.getElementById("demo1").innerHTML = nyTime;
-
-
-sydneyTime.setHours(nyTime.getHours() + 14)
-
-document.getElementById("demo2").innerHTML = sydneyTime;
-
-
-tokyoTime.setHours(nyTime.getHours() + 13)
-
-document.getElementById("demo3").innerHTML = tokyoTime;
-</script>
+        document.getElementById("demo1").innerHTML = nyTime;
+        document.getElementById("demo").innerHTML = londonTime;
+        document.getElementById("demo2").innerHTML = sydneyTime;
+        document.getElementById("demo3").innerHTML = tokyoTime;
+        }
+        </script>
 
 
 

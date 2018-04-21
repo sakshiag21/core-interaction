@@ -8,36 +8,37 @@ body{
 
 }
 
-H1{font-family: 'PT Sans Narrow', sans-serif;
+H1{font-family: 'Playfair Display', serif;
 text-align: center;
 font-size: 50px;
 /*color: #cf544c;*/
 }
 
-P{font-family: open sans;
+P{font-family: "freight-text-pro";
 font-size: 22px;
 line-height: 34px;
 text-align: left;
 font-weight: lighter;
 }
+.gradient{background: -webkit-linear-gradient(black, #494C4A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-blockquote{font-family: 'PT Sans Narrow', sans-serif;
-font-size: 32px;
-line-height: 38px;
+blockquote{font-family: 'Playfair Display', serif;
+font-size: 30px;
+line-height: 36px;
 text-align: left;
-font-weight: lighter;
-font-weight: bold;
-word-spacing: 2px;
+font-weight:700;
 }
 
 img{width: 100%;
 }
 
-A{font-size: 30PX;
-font-family: 'PT Sans Narrow', sans-serif;
-letter-spacing: 2px;
+A{font-size: 22PX;
+font-family: "freight-text-pro";
 text-decoration: none;
-color: grey;
+color: black;
 }
 
 a:hover {
@@ -94,7 +95,7 @@ a:hover {
 }
 
 .about{
-  max-width: 700px;
+  max-width: 630px;
   margin-left: 600px;
   margin-top: -250px;
   color:white;
@@ -127,6 +128,20 @@ margin-left: -100px;
   margin-right: 150px;
 }
 
+.issues{
+  font-family: 'Playfair Display', serif;
+  margin-top: 60px;
+  font-size: 100px;
+}
+
+.center{
+  margin-left: -70px;
+}
+
+.posts{
+  margin-left: -70px;
+  font-weight: bold;
+}
 
 .air{
 
@@ -146,8 +161,7 @@ margin-left: -100px;
     background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      margin-top: -10px;
-      position: absolute;
+
 }
 
 
@@ -217,8 +231,7 @@ background-image: url("https://www.holidayguru.ie/wp-content/uploads/2017/01/Ber
   background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -13PX;
-    /*margin-top: -12%;*/
+    margin-top: -85px;
 }
 /*.rome{
     max-width: 100%;
@@ -233,6 +246,7 @@ background-image: url("https://www.holidayguru.ie/wp-content/uploads/2017/01/Ber
   display: flex;
   margin-left: 100px;
   margin-right: 150px;
+  line-height: 55px;
 }
 
 .conde section{
@@ -285,6 +299,7 @@ text-align: center;
   margin-left: 150px;
   margin-right: 150px;
   margin-top: 100px;
+  line-height: 55px;
 
 }
 
@@ -315,9 +330,13 @@ flex: 50%;
   margin-top: 30px;
 }
 
+h3{
+  font-family: 'Playfair Display', serif;
+}
+
 .geog-caption{
   max-width: 900px;
-  font-family: open sans;
+  font-family: "freight-text-pro";
   font-size: 22px;
   line-height: 34px;
   text-align: justify;
@@ -342,7 +361,8 @@ flex: 50%;
     background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-}
+      margin-top: -75px;
+    }
 
 .new{
   display: flex;
@@ -382,129 +402,10 @@ text-align: center;
   margin-left: 150px;
   margin-right: 150px;
 margin-top: 100px;
+line-height: 55px;
 }
 
-.overlay {
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  opacity: 0.8;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transform:scale(0);
-  transition: 5s ease;
-}
-
-.overlay5 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgb(77,92,127);
-  opacity: 0.8;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transform:scale(0);
-  transition: 5s ease;
-}
-
-.overlay3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgb(59,80,117);
-  opacity: 0.8;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transform:scale(0);
-  transition: 5s ease;
-}
-
-.overlay2 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: purple;
-  opacity: 0.8;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  margin-top: 10px;
-  -webkit-transform:scale(0);
-  transition: 5s ease;
-}
-
-.overlay1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgb(247,201,22);
-  opacity: 0.8;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transform:scale(0);
-  transition: 5s ease;
-}
-
-.overlay6 {
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #527f63;
-  opacity: 0.8;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transform:scale(0);
-  transition: 5s ease;
-  height: 1000px;
-}
-
-
-.boatimg:hover .overlay6 {
-  transform: scale(1)
-}
-
-
-.lvimg:hover .overlay {
-  transform: scale(1)
-}
-
-.northimg:hover .overlay5 {
-  transform: scale(1)
-}
-
-.geogcoverimg:hover .overlay3 {
-  transform: scale(1)
-}
-
-.walesimg:hover .overlay3 {
-  transform: scale(1)
-}
-
-.condenast:hover .overlay2 {
-  transform: scale(1)
-}
-
-.travelbackground:hover .overlay1 {
-  transform: scale(1)
-}
-
-
-
-.text {
+.arrow {
   color: white;
   font-size: 35px;
   position: absolute;
@@ -516,29 +417,6 @@ margin-top: 100px;
   opacity: 1;
 }
 
-.HRLV{
-  max-width: 250px;
-  text-align: center;
-}
-
-.box{
-  border: solid 2px white;
-  padding: 20px;
-  font-size: 100px;
-  text-transform: lowercase;
-  font-family: 'Playfair Display', serif;
-}
-
-.box1{
-  border: solid 2px white;
-  padding: 20px;
-  padding-bottom: 40px;
-  font-size: 100px;
-  line-height: 90PX;
-  text-transform: lowercase;
-  font-family: 'Playfair Display', serif;
-
-}
 
   video.vidhome {
         position: fixed;
@@ -580,10 +458,11 @@ margin-top: 20%;
 .hometag2{
   position: relative;
 font-family: 'Playfair Display', serif;
-font-size: 100px;
+font-size: 45px;
 color: black;
-/*left:-3.5%;*/
-margin: 0;
+transform: rotate(270deg);
+margin-left: -100px;
+margin-top: 240px;
 }
 
 .bottom{
@@ -703,6 +582,7 @@ margin: 0;
 }
 
 .archive{
+  position: absolute;
   text-align: center;
 margin-top: 10px;
 margin-bottom: 10px;
@@ -735,13 +615,7 @@ main {
 	height: 120vh;
 	overflow: scroll;
 	position: relative;
-	background-color: hsl(800,60%,50%)
 }
-
-/*.menubar{
-  margin-top: 1000px;
-  position: relative;
-}*/
 
 .menu {
     list-style-type: none;
@@ -758,26 +632,19 @@ main {
 
 .menubar{
 text-align: center;
-margin-top: 300px;
 font-weight: bold;
+margin-top: 1000px;
 }
 
 .menubar1{
 text-align: center;
-margin-top: 1000px;
 font-weight: bold;
 }
 
 .menubar2{
 text-align: center;
-margin-top: 470px;
 font-weight: bold;
-}
-
-.menubar3{
-text-align: center;
-margin-top: 0px;
-font-weight: bold;
+margin-top: 300px;
 }
 
 .menu.li {

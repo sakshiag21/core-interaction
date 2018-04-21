@@ -57,7 +57,6 @@ function checkTime(i) {
 //
 // })
 
-var block = document.querySelector('.block')
 var main = document.querySelector('main')
 
 var startR = 255
@@ -80,6 +79,9 @@ main.addEventListener('scroll', function(event) {
 
    main.style.backgroundColor = 'rgb(' + Math.round(r) + ', ' + Math.round(g) + ', ' +Math.round(b);')'
 })
+
+
+
 
 // changing text based on time every 5 seconds
 

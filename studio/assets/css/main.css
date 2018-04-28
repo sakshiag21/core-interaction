@@ -80,7 +80,7 @@ a:hover {
   opacity: .85;
   font-size: 20px;
   color: white;
-  font-family: open sans;
+  font-family: "freight-text-pro";
   text-align: center;
   padding: 20px;
 }
@@ -673,10 +673,6 @@ margin-top: 300px;
 
 @media (max-width: 400px){
 
-  body{
-    margin-left: 1%;
-    margin-right: -18%;
-  }
 
   .menubar2{
     visibility: hidden;
@@ -689,10 +685,10 @@ margin-top: 300px;
   .hometag{
     font-size: 35px;
     margin-top: 70%;
+    line-height: 100%;
   }
 
   .index1{
-    height: 1150px;
     max-width: 100%;
   }
   .index1, .index2, .index3{
@@ -700,8 +696,10 @@ margin-top: 300px;
   }
 
   .hometag2{
-    font-size: 60px;
-    margin-left: -10%;
+    font-size: 40px;
+    margin-left: 50%;
+    transform: rotate(0deg);
+    margin-top: -20%;
   }
 
   .archive{
@@ -715,7 +713,12 @@ margin-top: 300px;
 
   .top3{
     margin-left: -50px;
-    margin-right: -30px;
+    margin-right: -40px;
+  }
+
+  .center, .posts{
+    margin-left: -45%;
+    font-size: 20px;
   }
 
   .lvhome{
@@ -724,10 +727,10 @@ margin-top: 300px;
   .geoghome{
     min-width: 100%;
     margin-top: 5%;
-    margin-left: -20%;
+    margin-left: -24%;
   }
   .design{
-    font-size: 80px;
+    font-size: 60px;
     line-height: 90%;
     margin-left: 5%;
   }
@@ -736,7 +739,12 @@ margin-top: 300px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10%;
-    word-spacing: -8px;
+    font-size: 10px;
+    line-height: 340%;
+  }
+  .info, .index3{
+    font-size: 18px;
+    line-height: 140%;
   }
 
   .travellive{
@@ -744,8 +752,15 @@ margin-top: 300px;
   }
 
   .time {
-    visibility: hidden;
+    margin-left: -60%;
+    margin-right: 40%;
+    font-size: 14px;
   }
+
+#demo, #demo1, #demo2, #demo3{
+  font-size: 18px;
+  line-height: 130%;
+}
 
 .travelbackground, .condenast{
   max-width: 85%;
@@ -757,7 +772,14 @@ margin-top: 300px;
     margin-top: -100%;
   }
 
-  .menu, .overlay1, .overlay2{
+  .airquote{
+    font-size: 22px;
+    margin-left: -60%;
+    margin-right: -100%;
+    line-height: 100%;
+  }
+
+  .menu, .overlay1, .overlay2, .arrow{
     visibility: hidden;
   }
 
@@ -767,15 +789,22 @@ margin-top: 300px;
     margin-right: 49px;
   }
 
-  .travel p, .travel3 a, .conde a{
-    font-size: 15px;
+  .travel p, .travel3 a, .conde a, blockquote{margin-top: 10%;
+    font-size: 18px;
     max-width: 350px;
-    margin-right: 20px;
+    margin-right: -10%;
     line-height: 24px;
     font-weight: normal;
+    margin-left: -2%;
   }
+  blockquote{
+    font-weight: 600;
+  margin-left: 10%}
+.throughout{
+  margin-right: 10%;
+}
 
-  .titleair{
+.titleair{
     font-size: 20px;
     text-align: left;
     margin-left: -75px;

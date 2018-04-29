@@ -49,6 +49,21 @@ a:hover {
 .index{
   margin-left: 150px;
   margin-right: 150px;
+  line-height: 40px;
+  margin-top: 5%;
+}
+footer{
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  padding: -5em;
+  padding-top: 10px;
+
+
+}
+.footertext{
+  color: white;
 }
 
 .index1{
@@ -159,6 +174,18 @@ margin-left: -100px;
    min-width: 100%;
    max-height: 1000px;
    min-height: 1000px;
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+
+}
+
+.indexbackground{
+  background-image: url("https://bradbeaman.files.wordpress.com/2014/12/4.jpg");
+   min-width: 100%;
+   max-height: 400px;
+   min-height: 400px;
     background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1066,7 +1093,22 @@ h3{
   margin-left: 0%;
   visibility: visible;
 }
-
+/*INDEX*/
+.indexbackground{
+  max-height: 202px;
+  min-height: 202px;
+}
+.index{
+  min-width: 90%;
+  margin-left: 5%;
+  line-height: 24px;
+}
+footer{
+  height: 30px;
+}
+.footertext{
+  font-size: 18px;
+}
 
 
 }

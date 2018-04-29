@@ -260,7 +260,7 @@ text-align: center;
 }
 
 .geogcoverimg{
-  background-image: url("https://i.ytimg.com/vi/M_rm6Mi7LVQ/maxresdefault.jpg");
+  background-image: url("http://www.todayshomepage.com/related-images/0/north-shore-oahu-bodyboarding-cHyoilQ.jpg");
   max-width: 100%;
   max-height: 100%;
   position: absolute;
@@ -315,6 +315,15 @@ text-align: center;
   display: flex;
   margin-left: 100px;
   margin-right: 150px;
+}
+
+.geography{
+  font-size: 90px;
+  font-family: "pt sans";
+  font-weight: 600;
+}
+.geogquote{
+  margin-top: -4%;
 }
 
 .geog section{
@@ -801,7 +810,9 @@ margin-top: 300px;
   }
   blockquote{
     font-weight: 600;
-  margin-left: 10%}
+  margin-left: 10%;
+  max-width: 90%;
+}
 .throughout{
   margin-right: 10%;
 }
@@ -823,6 +834,9 @@ margin-top: 300px;
 
   .bottom1{
     height: 20px;
+  }
+  .travelblock{
+  min-width: 110%;
   }
 
 /*LOUIS VUITTON*/
@@ -868,7 +882,7 @@ margin-top: 300px;
   margin-right: -6%;
   margin-top: -25%;
 }
-.conde-video{
+.conde-video, .geog-video{
   visibility: visible;
   min-width: 125%;
   margin-left: -12%;
@@ -895,14 +909,60 @@ hr{
   font-size: 18px;
   line-height: 50px;
 }
-.condeblock{
-max-width: 90%;
-}
 .condespace{
   max-width: 700px;
 }
 
+/*NATIONAL GEOGRAPHY */
 
+.geogquote{
+  margin-top: 20%;
+}
+.geography{
+  visibility: visible;
+  margin-top: -10%;
+  line-height: 100%;
+  font-size: 60px;
+}
+.geog, .geog p{
+  visibility: visible;
+  display: block;
+  min-width: 100%;
+  margin-left: -5%;
+  font-size: 18px;
+  line-height: 24px;
+}
+.national{
+  min-width: 116%;
+  margin-left: -10%;
+}
+.geog-image, .geog5{
+  width: 106%;
+  visibility: visible;
+  display: block;
+  margin-left: -3%;
+  margin-top: -15%;
+}
+.geog-caption{
+visibility: visible;}
+.bottom1{
+  height: 100px;}
+
+.geogtravel, .geog5{
+  margin-top: -10%;
+}
+.geog-caption{
+  visibility: visible;
+  min-width: 90%;
+  margin-left: 7%;
+  margin-top: 20%;
+  margin-right: 20%;
+  text-align: left;
+}
+h3{
+  line-height: 30px;
+  font-size: 26px;
+}
 
 
 }

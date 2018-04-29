@@ -922,7 +922,7 @@ hr{
   visibility: visible;
   margin-top: -10%;
   line-height: 100%;
-  font-size: 60px;
+  font-size: 45px;
 }
 .geog, .geog p{
   visibility: visible;
@@ -958,6 +958,8 @@ visibility: visible;}
   margin-top: 20%;
   margin-right: 20%;
   text-align: left;
+  font-size: 18px;
+  line-height: 24px;
 }
 h3{
   line-height: 30px;

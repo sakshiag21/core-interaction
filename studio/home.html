@@ -13,18 +13,6 @@
   </head>
   <body>
 
-    <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script>
-
-
 
 
   <video poster="https://izgov.org/wp-content/uploads/2016/11/Useful-Travel-Tips.jpg" class="vidhome" playsinline autoplay muted loop>
@@ -44,14 +32,14 @@
   <H1 class="hometag">people forget years and remember moments</H1>
 
   <div class="menubar1" id="position">
-    <ul class="menu">
+    <ul class="menu" id ="menuhome">
       <br>
     <!-- <li class="menu"><a  class="menulink" href="home.html">Home</a> -->
-    <div class="topnav" id="myTopnav">
-      <a href="home.html#top" class="menulink">Top3Posts</a>
-    <a  class="menulink" href="index.html">AllPosts</a>
-    <a class="menulink" href="home.html#contact">Contact</a></li>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <!-- <div class="menuhome"> -->
+      <a href="home.html#top" class="menulink" id ="menuhome">Top3Posts</a>
+    <a  class="menulink" href="index.html" id ="menuhome">AllPosts</a>
+    <a class="menulink" id ="menuhome" href="home.html#contact">Contact</a></li>
+  </div>
 
     </ul>
 

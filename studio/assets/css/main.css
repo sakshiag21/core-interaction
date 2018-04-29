@@ -989,8 +989,42 @@ h3{
 .boat-video, .wales-video{
   max-width: 80%;
   margin-top: -50%;
+  visibility: visible;
 }
-/*WALES*/
+.boatquote{
+  font-size: 22px;
+  margin-left: -2%;
+  margin-right: -5%;
+  line-height: 100%;
+  text-align: left;
+  line-height: 24px;
+  margin-top: 20%;
+  max-width: 100%;
+}
+/*FASHION EYE*/
+.lvquote{
+  font-size: 22px;
+  margin-left: -2%;
+  margin-right: -5%;
+  line-height: 100%;
+  text-align: left;
+  line-height: 24px;
+  margin-top: 20%;
+  max-width: 105%;
+}
+.fashionimg{
+  width: 115%;
+  margin-left: -10%;
+  margin-top: -5%;
+}
+.fashion-video{
+  max-width: 80%;
+  margin-top: -5%;
+  visibility: visible;
+}
+.fashion-collection{
+  margin-top: 130%;
+}
 
 
 }

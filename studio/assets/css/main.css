@@ -234,10 +234,6 @@ background-image: url("https://www.holidayguru.ie/wp-content/uploads/2017/01/Ber
     background-size: cover;
     margin-top: -85px;
 }
-/*.rome{
-    max-width: 100%;
-    position: absolute;
-}*/
 
 .condespace{
   height: 700px;
@@ -761,7 +757,9 @@ margin-top: 300px;
   font-size: 18px;
   line-height: 130%;
 }
-
+.travellive{
+  text-align: left;
+}
 /*TRAVEL+LEISURE*/
 
 .travelbackground{
@@ -817,7 +815,7 @@ margin-top: 300px;
     margin-top: 30px;
   }
 
-  .travel-image, .travel-1, .travel2,{
+  .travel-image{
     width: 100%;
     display: block;
     margin-left: 0;
@@ -827,9 +825,7 @@ margin-top: 300px;
     height: 20px;
   }
 
-  .condeheader{
-    color:red;
-  }
+/*LOUIS VUITTON*/
 
   .geoghead{
     margin-top: -15%;
@@ -842,6 +838,8 @@ margin-top: 300px;
 
   .new{
     display: block;
+    min-width: 100%;
+    margin-left: -7%;
   }
     .nyc-video{
       width: 100%;
@@ -853,10 +851,12 @@ margin-top: 300px;
   min-width: 100%;
   margin-left: -5%;
 }
-.new{
-  min-width: 100%;
-  margin-left: -7%;
+
+.new p{
+  font-size: 18px;
+  line-height: 24px;
 }
+
 
 
 

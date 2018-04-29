@@ -863,13 +863,41 @@ margin-top: 300px;
   visibility: visible;
 }
 .conde2{
-  min-width: 300%;
-  margin-left: -120%;
+  min-width: 73%;
+  margin-left: -6%;
+  margin-right: -6%;
+  margin-top: -25%;
 }
 .conde-video{
   visibility: visible;
   min-width: 125%;
   margin-left: -12%;
+  height: 100px;
+}
+.condeheader{
+  font-size: 30px;
+  margin-top: -10%;
+}
+.condeheader2{
+  font-size: 80px;
+  margin-top: -7%;
+}
+hr{
+  width: 350px;
+}
+.condequote{
+  margin-top: 20%;
+}
+.conde{
+  min-width: 100%;
+  margin-left: -7%;
+  margin-top: -8%;
+}
+.condeblock{
+max-width: 90%;
+}
+.condespace{
+  max-width: 700px;
 }
 
 

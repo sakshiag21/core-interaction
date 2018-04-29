@@ -282,7 +282,7 @@ text-align: center;
 }
 
 .walesimg{
-  background-image: url("http://departures.design/wp-content/uploads/2017/05/Departures_ThisisWales4.jpg");
+  background-image: url("http://www.lotterygoodcauses.org.uk/sites/default/files/WMC%20Front%20-%20Kiran%20Ridely.jpg");
   max-width: 100%;
   max-height: 100%;
   position: absolute;
@@ -985,10 +985,12 @@ h3{
   margin-right: -20%;
   min-width: 115%;
 }
-.boat-video{
+/*BOAT*/
+.boat-video, .wales-video{
   max-width: 80%;
   margin-top: -50%;
 }
+/*WALES*/
 
 
 }

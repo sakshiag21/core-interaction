@@ -271,7 +271,7 @@ text-align: center;
 }
 
 .boatimg{
-  background-image: url("http://www.boat-mag.com/wp-content/uploads/2016/05/Boat-Magazine-Issue-11-Havana-02.jpg");
+  background-image: url("http://www.boat-mag.com/wp-content/uploads/2014/07/MOSES-SUMNEY-BOAT_2014-2271-ES-pink-2-750x450.jpg");
   max-width: 100%;
   max-height: 100%;
   position: absolute;
@@ -980,10 +980,15 @@ h3{
   line-height: 24px;
   margin-top: 20%;
 }
-.northimages{
+.northimages, .boatimage{
   margin-left: -25%;
   margin-right: -20%;
   min-width: 115%;
 }
+.boat-video{
+  max-width: 80%;
+  margin-top: -50%;
+}
+
 
 }

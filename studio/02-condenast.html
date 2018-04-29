@@ -44,11 +44,11 @@
 
         <div class="sun">
         <span class="city">LONDON</span><br>
-        Sunrise: <span class="sunrise">00</span> UTC
+        Sunrise: <span class="sunrise">00</span>
     <br>
-    Sunset: <span class="sunset">00</span> UTC
+    Sunset: <span class="sunset">00</span>
     <br>
-    (Local time: +1 hours)
+    <!-- (Local time: +1 hours) -->
   </div>
 
       <div class="condeheader"> CONDE NAST</div>
@@ -108,7 +108,7 @@
   </div>
 
   <script>
-  fetch('https://api.sunrise-sunset.org/json?lat=51.509865&lng= -0.118092')
+  fetch('https://api.sunrise-sunset.org/json?lat=51.509865&lng= -0.118092&formatted=0')
 .then(function(response) {
     // Get the response and format it to JSON
     return response.json();
@@ -120,20 +120,28 @@
 
 var sunriseSpan = document.querySelector('.sunrise')
 var sunsetSpan = document.querySelector('.sunset')
+var sunriseDate = document.querySelector('.sunrise')
+var sunsetDate = document.querySelector('.sunset')
 
 
 function render(data){
-  //log the data in its entirety
-  console.log(data);
-  //log current sunrise
-  console.log(data.results.sunrise);
-  //insert the  time
-  sunriseSpan.innerText=data.results.sunrise
+//log the data in its entirety
+console.log(data);
+//log current sunrise
+console.log(data.results.sunrise);
+var sunriseDate = new Date(data.results.sunrise)
+console.log(sunriseDate.getHours(), sunriseDate.getMinutes())
+//insert the  time
+sunriseSpan.innerText=sunriseDate
 
-  //log sunset
-  console.log(data.results.sunset);
-  //insert the time
-  sunsetSpan.innerText=data.results.sunset
+//log sunset
+console.log(data.results.sunset);
+//insert the time
+console.log(data.results.sunset);
+var sunsetDate = new Date(data.results.sunset)
+console.log(sunsetDate.getHours(), sunsetDate.getMinutes())
+//insert the  time
+sunsetSpan.innerText=sunsetDate
 
 }
 

@@ -842,8 +842,7 @@ margin-top: 300px;
     margin-left: -7%;
   }
     .nyc-video{
-      width: 100%;
-    }
+      width: 100%; }
   .bottom{
     margin-bottom: 10%;
 }
@@ -852,9 +851,25 @@ margin-top: 300px;
   margin-left: -5%;
 }
 
+/*CONDENAST*/
+
 .new p{
   font-size: 18px;
   line-height: 24px;
+}
+
+.conde, .condeheader, hr, .condeheader2, .geoghead{
+  display: block;
+  visibility: visible;
+}
+.conde2{
+  min-width: 300%;
+  margin-left: -120%;
+}
+.conde-video{
+  visibility: visible;
+  min-width: 125%;
+  margin-left: -12%;
 }
 
 

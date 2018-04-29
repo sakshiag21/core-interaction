@@ -917,7 +917,7 @@ margin-top: 300px;
 }
 .condeheader{
   font-size: 30px;
-  margin-top: -10%;
+  margin-top: -40%;
 }
 .condeheader2{
   font-size: 80px;
@@ -947,7 +947,7 @@ hr{
 }
 .geography{
   visibility: visible;
-  margin-top: -10%;
+  margin-top: -40%;
   line-height: 100%;
   font-size: 45px;
 }
@@ -991,6 +991,9 @@ visibility: visible;}
 h3{
   line-height: 30px;
   font-size: 26px;
+}
+.lvq{
+  margin-top: 20%;
 }
 /*NORTH*/
 .northphone{
@@ -1049,6 +1052,19 @@ h3{
 }
 .fashion-collection{
   margin-top: 130%;
+}
+/*API*/
+.sun{
+  margin-top: -5%;
+  margin-left: 7%;
+  margin-bottom: 50%;
+  font-size: 20px;
+  visibility: visible;
+}
+#map{
+  max-width: 100%;
+  margin-left: 0%;
+  visibility: visible;
 }
 
 

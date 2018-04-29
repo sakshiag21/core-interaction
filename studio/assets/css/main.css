@@ -853,7 +853,7 @@ margin-top: 300px;
 
 /*CONDENAST*/
 
-.new p{
+.new p, .conde p {
   font-size: 18px;
   line-height: 24px;
 }
@@ -889,9 +889,11 @@ hr{
   margin-top: 20%;
 }
 .conde{
-  min-width: 100%;
+  min-width: 105%;
   margin-left: -7%;
   margin-top: -8%;
+  font-size: 18px;
+  line-height: 50px;
 }
 .condeblock{
 max-width: 90%;

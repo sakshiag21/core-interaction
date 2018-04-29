@@ -381,6 +381,10 @@ h3{
       margin-top: -75px;
     }
 
+  .lvq{
+    margin-top: -5%;
+  }
+
 .new{
   display: flex;
   margin-left: 150px;
@@ -676,6 +680,27 @@ margin-top: 300px;
 
 #position{
   margin-top: 27.7%;
+}
+
+
+#map {
+  height: 700px;
+  width: 1400px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.sun{
+  font-size: 20px;
+  font-weight: normal;
+  font-family:'Playfair Display';
+  line-height: 26px;
+  margin-top: 50px;
+  margin-left: 12%;
+  text-align:left;
+}
+.city{
+  font-weight: bold;
+  font-size: 24PX;
 }
 
 @media (max-width: 400px){

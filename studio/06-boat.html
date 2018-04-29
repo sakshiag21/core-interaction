@@ -40,11 +40,20 @@
         <a  class="menulink" href="index.html">AllPosts</a>
         <a class="menulink" href="home.html#contact">Contact</a></li>
         </ul>
+        <div class="sun">
+        <span class="city">LOS ANGELES</span><br>
+        Sunrise: <span class="sunrise">00</span> UTC
+    <br>
+    Sunset: <span class="sunset">00</span> UTC
+    <br>
+    (Local time: -7 hours)
+  </div>
         <H1 class="geography">boat</H1>
-
+        <div class="lvq">
       <div class="geoghead">
       <H1 class="boatquote"> Meet the locals, learn some secrets, and be inspired by these cities that are full of life and passion.</H1>
       </div>
+    </div>
 
       <div class="geog">
         <section class="geog1">
@@ -114,6 +123,8 @@ Photographer / Film maker Jonathan Cherry spent a week capturing the spirit of t
 <div class="geog5">
 <img src="https://fiu-assets-2-syitaetz61hl2sa.stackpathdns.com/static/use-media-items/21/20006/upto-700xauto/567033c0/@2x/Boat_Magazine_Lima_Design_by_She_Was_Only_23.jpeg">
 </div>
+<div id="map"></div>
+
 
 <div class="bottom1">
 
@@ -122,6 +133,53 @@ Photographer / Film maker Jonathan Cherry spent a week capturing the spirit of t
 
 
   <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+  fetch('https://api.sunrise-sunset.org/json?lat=34.052235&lng=-118.243683')
+.then(function(response) {
+    // Get the response and format it to JSON
+    return response.json();
+})
+.then(function(jsonData) {
+    // log the data
+    render(jsonData);
+});
+
+var sunriseSpan = document.querySelector('.sunrise')
+var sunsetSpan = document.querySelector('.sunset')
+
+
+function render(data){
+  //log the data in its entirety
+  console.log(data);
+  //log current sunrise
+  console.log(data.results.sunrise);
+  //insert the  time
+  sunriseSpan.innerText=data.results.sunrise
+
+  //log sunset
+  console.log(data.results.sunset);
+  //insert the time
+  sunsetSpan.innerText=data.results.sunset
+
+}
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 34.052235, lng: -118.243683},
+    zoom: 11
+  });
+}
+  </script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXHNLaH-BflNNdoHGc60TpsbjIWg9Sbgk&callback=initMap"
+async defer>
+</script>
+
 
 
     </body>

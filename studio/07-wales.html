@@ -40,6 +40,15 @@
         <a class="menulink" href="home.html#contact">Contact</a></li>
         </ul>
 
+        <div class="sun">
+        <span class="city">WALES</span><br>
+        Sunrise: <span class="sunrise">00</span> UTC
+    <br>
+    Sunset: <span class="sunset">00</span> UTC
+    <br>
+    (Local time: +1 hours)
+  </div>
+
 
         <H1 class="geography">WALES</H1>
       <div class="geoghead">
@@ -110,10 +119,58 @@
         <div class="geog5">
         <img src="https://s3-eu-central-1.amazonaws.com/centaur-wp/designweek/prod/content/uploads/2017/02/01173438/Boat-1-1280x720.jpg">
         </div>
+        <div id="map"></div>
 
         <div class="bottom1">
 
         </div>
+
+        <script src="assets/js/main.js"></script>
+        <script>
+        fetch('https://api.sunrise-sunset.org/json?lat=52.1306607&lng=-3.7837117')
+      .then(function(response) {
+          // Get the response and format it to JSON
+          return response.json();
+      })
+      .then(function(jsonData) {
+          // log the data
+          render(jsonData);
+      });
+
+      var sunriseSpan = document.querySelector('.sunrise')
+      var sunsetSpan = document.querySelector('.sunset')
+
+
+      function render(data){
+        //log the data in its entirety
+        console.log(data);
+        //log current sunrise
+        console.log(data.results.sunrise);
+        //insert the  time
+        sunriseSpan.innerText=data.results.sunrise
+
+        //log sunset
+        console.log(data.results.sunset);
+        //insert the time
+        sunsetSpan.innerText=data.results.sunset
+
+      }
+
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 52.1306607, lng: -3.7837117},
+          zoom: 7
+        });
+      }
+        </script>
+
+
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXHNLaH-BflNNdoHGc60TpsbjIWg9Sbgk&callback=initMap"
+      async defer>
+      </script>
+
 
 
 </body>

@@ -770,6 +770,7 @@ margin-top: 300px;
     font-size: 60px;
     line-height: 85%;
     margin-top: -100%;
+    margin-left: -60%;
   }
 
   .airquote{
@@ -777,6 +778,7 @@ margin-top: 300px;
     margin-left: -60%;
     margin-right: -100%;
     line-height: 100%;
+    text-align: left;
   }
 
   .menu, .overlay1, .overlay2, .arrow{

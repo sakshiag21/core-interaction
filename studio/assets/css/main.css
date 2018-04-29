@@ -762,7 +762,9 @@ margin-top: 300px;
   line-height: 130%;
 }
 
-.travelbackground, .condenast{
+/*TRAVEL+LEISURE*/
+
+.travelbackground{
   max-width: 85%;
 }
 
@@ -781,7 +783,7 @@ margin-top: 300px;
     text-align: left;
   }
 
-  .menu, .overlay1, .overlay2, .arrow{
+  .menu, .overlay1, .overlay2, .arrow, .menubar{
     visibility: hidden;
   }
 
@@ -815,7 +817,7 @@ margin-top: 300px;
     margin-top: 30px;
   }
 
-  .travel-image, .travel-1, .travel2{
+  .travel-image, .travel-1, .travel2,{
     width: 100%;
     display: block;
     margin-left: 0;
@@ -826,42 +828,36 @@ margin-top: 300px;
   }
 
   .condeheader{
-    font-size: 25px;
-    margin-top: -10%;
-  }
-  .condeheader2{
-    font-size: 80px;
-    margin-top: -7%;
+    color:red;
   }
 
-  hr{
-    width: 350px;
-     margin-top: -2px;
+  .geoghead{
+    margin-top: -15%;
+    font-size: 24px;
+    margin-left: 7%;
+    line-height: 120%;
+    text-align: left;
+    margin-right: 2%;
   }
-.conde{
-  font-size: 20px;
-  min-width: 330px;
-  margin-left: 9%;
-  display: block;
-  text-align: left;
+
+  .new{
+    display: block;
+  }
+    .nyc-video{
+      width: 100%;
+    }
+  .bottom{
+    margin-bottom: 10%;
 }
-.conde p{
-  font-size: 15px;
-  margin-left: -22%;
-  margin-right: 10px;
-  margin-top: -10px;
-  text-decoration: none;
+.nyc1{
+  min-width: 100%;
+  margin-left: -5%;
 }
-.conde2{
-  width: 115%;
-  margin-left: -27%;
+.new{
+  min-width: 100%;
+  margin-left: -7%;
 }
-.conde-video{
-  margin-left: -50px;
-  width:126%; margin-top: -10px;
-}
-.bottommargin{
-  height: 120px;
-}
+
+
 
 }

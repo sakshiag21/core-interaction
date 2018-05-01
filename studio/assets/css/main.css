@@ -1135,5 +1135,10 @@ footer{
   font-size: 18px;
 }
 
+/*INDIA*/
+.india-image{
+  min-width: 117%;
+  margin-left: -10%;
+}
 
 }

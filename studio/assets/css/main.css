@@ -297,6 +297,17 @@ text-align: center;
      background-size: cover;
 }
 
+.alphabetimg{
+  background-image: url("https://www.fineprintart.com/images/blog/jack-daly/Geometric_Art_by_Jack_Daly_1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  min-height: 1000px;
+   background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
 .boatimg{
   background-image: url("http://www.boat-mag.com/wp-content/uploads/2014/07/MOSES-SUMNEY-BOAT_2014-2271-ES-pink-2-750x450.jpg");
   max-width: 100%;
@@ -407,6 +418,15 @@ h3{
       background-size: cover;
       margin-top: -75px;
     }
+    .indiaimg{
+      background-image: url("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150728162730-truck-art-india-montage-1.jpg");
+       max-width: 100%;
+       min-height: 1000px;
+        background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-top: -75px;
+        }
 
   .lvq{
     margin-top: -5%;

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Indian Truck Art</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/lod0vrr.css">
+
+
+
+    </head>
+    <body>
+
+
+
+
+      <div class="indiaimg">
+    <div class="text">
+    </div>
+    </div>
+    <a href="09-truck.html#INDIA">
+    <div class="arrow">
+    <div class="container">
+    <div class="chevron"></div>
+    <div class="chevron"></div>
+    <div class="chevron"></div>
+    <!-- <span class="text">Scroll down</span> -->
+    </div>
+  </div></a>
+      </div>
+        <a NAME="INDIA">
+      <div class="menubar1"></A>
+        <ul class="menu">
+          <br>
+        <!-- <li class="menu"><a  class="menulink" href="home.html">Home</a> -->
+          <a href="home.html#top" class="menulink">Top3Posts</a>
+        <a  class="menulink" href="index.html">AllPosts</a>
+        <a class="menulink" href="home.html#contact">Contact</a></li>
+        </ul>
+        <div class="sun">
+        <span class="city">INDIA</span><br>
+        Sunrise: <span class="sunrise">00</span>
+    <br>
+    Sunset: <span class="sunset">00</span>
+    <br>
+    <!-- (Local time: -4 hours) -->
+  </div>
+
+      <br>
+      <br>
+<H1 class="geography">"Indian Truck Art"</H1>
+<div class="lvq">
+    <H1 class="geoghead">The psychedelic world of Indian Art</h1>
+</div>
+      <br>
+
+    <div class="new">
+        <section class="nyc">
+    <p class="gradient">The truckers in India, are a kaleidoscope of colors, slogans, and intricately painted symbols, here, a truck isn't just a way to get around. It's a moving work of art reflecting the character of its driver and contributing significantly to India's vibrant impage. Also as the vehicle itself acts as the moving home that the driver wants to decorate.</p>
+    <blockquote>
+    "A better looking truck attracts more business," says Shantanu Suman, graphic designer and filmmaker behind 2013 documentary "Horn Please," which explores India's spectacular truck art tradition.</blockquote>
+    <p>As designers, our primary interest in this topic comes from the art on these trucks and how they are mostly hand-painted featuring fancy lettering, bright colours and ornate decorations. The symbolism continues on the richly painted exterior, with images of gods and goddesses, Bollywood stars, and political logos that say much about the person behind the wheel. There is also a lot of decoration that has to do with luck on the road and warning away bad omens. There is a little demon face they put on the front of the truck, or they might tie lemon and chilies to the front bottom of the truck which is meant to keep away the evil eye.</p>
+    <blockquote> Depending on which region they're from, you'll see Hindi, Muslim, Sikh, and Christian iconography," said photographer Dan Eckstein, who traveled over 10,000kms of the country for his book "Horn Please: The Decorated Trucks of India.</blockquote>
+    <p>The luminous rear end of these trucks, have the words "Horn Please" emblazoned across the back. It's a call for other drivers to honk their horns when overtaking the truck; a long-standing tradition on Indian roads. However, truck painting is now undergoing a transformation. A lot of things that were once hand painted are now being replaced by stickers. <p>
+
+      <p>
+      <a href="http://www.shantanusuman.com"> Shantanu Suman - passionate about the vernacular street art of India</a>
+      <br>
+
+      <a href="http://www.daneckstein.com/PORTFOLIOS/Horn-Please/thumbs">Dan Eckstein - Horn Please</a>
+    </p>
+        </section>
+
+        <section class="nyc1">
+          <img src="http://1.bp.blogspot.com/--qbPqnyXHJI/UTNx5MsMm-I/AAAAAAAAFmo/5RRdBFl_Plc/s1600/design+2.jpg">
+          <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150723122212-india-truck-art-spray-painting.jpg">
+          <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150723112801-india-truck-art-mumbai.jpg">
+          <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150723121907-india-truck-art-sirhind.jpg">
+        </section>
+    </div>
+
+    <br><br><br>
+
+    <div class="geog-video">
+      <iframe src="https://player.vimeo.com/video/64932921" width="1240" height="660" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="wales-video"></iframe>
+    </video>
+    </div>
+    <br><br>
+
+    <div id="map"></div>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+  fetch('https://api.sunrise-sunset.org/json?lat=20.593684&lng=78.96288000000004&formatted=0')
+.then(function(response) {
+    // Get the response and format it to JSON
+    return response.json();
+})
+.then(function(jsonData) {
+    // log the data
+    render(jsonData);
+});
+
+var sunriseSpan = document.querySelector('.sunrise')
+var sunsetSpan = document.querySelector('.sunset')
+var sunriseDate = document.querySelector('.sunrise')
+var sunsetDate = document.querySelector('.sunset')
+
+
+function render(data){
+//log the data in its entirety
+console.log(data);
+//log current sunrise
+console.log(data.results.sunrise);
+var sunriseDate = new Date(data.results.sunrise)
+console.log(sunriseDate.getHours(), sunriseDate.getMinutes())
+//insert the  time
+sunriseSpan.innerText=sunriseDate
+
+//log sunset
+console.log(data.results.sunset);
+//insert the time
+console.log(data.results.sunset);
+var sunsetDate = new Date(data.results.sunset)
+console.log(sunsetDate.getHours(), sunsetDate.getMinutes())
+//insert the  time
+sunsetSpan.innerText=sunsetDate
+}
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 20.593684, lng: 78.96288000000004},
+    zoom: 6
+  });
+}
+  </script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXHNLaH-BflNNdoHGc60TpsbjIWg9Sbgk&callback=initMap"
+async defer>
+</script>
+
+
+
+  </body>
+  </html>

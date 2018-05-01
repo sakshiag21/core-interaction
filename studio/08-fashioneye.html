@@ -119,6 +119,10 @@
 
         </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.16/moment-timezone-with-data.min.js"></script>
+
+
         <script src="assets/js/main.js"></script>
         <script>
         fetch('https://api.sunrise-sunset.org/json?lat=48.864716&lng=2.349014&formatted=0')
@@ -137,24 +141,15 @@
       var sunsetDate = document.querySelector('.sunset')
 
 
-      function render(data){
-      //log the data in its entirety
-      console.log(data);
-      //log current sunrise
-      console.log(data.results.sunrise);
-      var sunriseDate = new Date(data.results.sunrise)
-      console.log(sunriseDate.getHours(), sunriseDate.getMinutes())
-      //insert the  time
-      sunriseSpan.innerText=sunriseDate
-
-      //log sunset
-      console.log(data.results.sunset);
-      //insert the time
-      console.log(data.results.sunset);
-      var sunsetDate = new Date(data.results.sunset)
-      console.log(sunsetDate.getHours(), sunsetDate.getMinutes())
-      //insert the  time
-      sunsetSpan.innerText=sunsetDate
+      function render(data) {
+      	var tz = 'Europe/Paris';
+      	var format = 'ddd MMM DD YYYY hh:mm:ssa';
+      	var sunriseTime = moment.tz(data.results.sunrise, tz).format();
+      	var sunsetTime = moment.tz(data.results.sunset, tz).format();
+      	console.log(sunriseTime);
+      sunriseDate.innerText=sunriseTime
+      	console.log(sunsetTime);
+        sunsetDate.innerText=sunsetTime
 
       }
 

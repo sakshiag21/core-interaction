@@ -107,42 +107,42 @@
 
   </div>
 
-  <script>
-  fetch('https://api.sunrise-sunset.org/json?lat=51.509865&lng= -0.118092&formatted=0')
-.then(function(response) {
-    // Get the response and format it to JSON
-    return response.json();
-})
-.then(function(jsonData) {
-    // log the data
-    render(jsonData);
-});
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.16/moment-timezone-with-data.min.js"></script>
 
-var sunriseSpan = document.querySelector('.sunrise')
-var sunsetSpan = document.querySelector('.sunset')
+  <script>
+  // set lattitude and longitude
+/* var lat = 22.609211;
+var lng = 88.407965; */
+var sunriseTime = document.querySelector('.sunrise')
+var sunsetTime = document.querySelector('.sunset')
 var sunriseDate = document.querySelector('.sunrise')
 var sunsetDate = document.querySelector('.sunset')
 
+// fetch request
+fetch('https://api.sunrise-sunset.org/json?lat=51.509865&lng= -0.118092&formatted=0')
+   .then(function(response) {
+       // Get the response and format it to JSON
+       return response.json();
+   })
+   .then(function(jsonData) {
+       // render the data
+       render(jsonData);
+   });
 
-function render(data){
-//log the data in its entirety
-console.log(data);
-//log current sunrise
-console.log(data.results.sunrise);
-var sunriseDate = new Date(data.results.sunrise)
-console.log(sunriseDate.getHours(), sunriseDate.getMinutes())
-//insert the  time
-sunriseSpan.innerText=sunriseDate
-
-//log sunset
-console.log(data.results.sunset);
-//insert the time
-console.log(data.results.sunset);
-var sunsetDate = new Date(data.results.sunset)
-console.log(sunsetDate.getHours(), sunsetDate.getMinutes())
-//insert the  time
-sunsetSpan.innerText=sunsetDate
-
+function render(data) {
+	// use valid timezone identifier to set timezone (see link below)
+	// https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+	// use moment.js shorthand to set the time format (see link below)
+	// https://momentjs.com/docs/#/parsing/string-format/
+	var tz = 'Europe/London';
+	var format = 'ddd MMM DD YYYY hh:mm:ssa';
+	var sunriseTime = moment.tz(data.results.sunrise, tz).format();
+	var sunsetTime = moment.tz(data.results.sunset, tz).format();
+	console.log(sunriseTime);
+sunriseDate.innerText=sunriseTime
+	console.log(sunsetTime);
+  sunsetDate.innerText=sunsetTime
 }
 
 var map;

@@ -16,7 +16,7 @@ font-size: 50px;
 
 P{font-family: "freight-text-pro";
 font-size: 22px;
-line-height: 34px;
+line-height: 32px;
 text-align: left;
 font-weight: lighter;
 }
@@ -26,8 +26,8 @@ font-weight: lighter;
 }
 
 blockquote{font-family: 'Playfair Display', serif;
-font-size: 30px;
-line-height: 36px;
+font-size: 22px;
+line-height: 32px;
 text-align: left;
 font-weight:700;
 }
@@ -47,20 +47,25 @@ a:hover {
 }
 
 .index{
-  margin-left: 150px;
-  margin-right: 150px;
   line-height: 40px;
   margin-top: 5%;
+  text-align: left;
+}
+.index a{
+  font-weight: normal;
+}
+.all{
+  margin-left: -70%;
+  font-size: 40px;
 }
 footer{
   text-align: center;
   width: 100%;
   height: 50px;
-  background-color: black;
+  background-color: #333;
   padding: -5em;
   padding-top: 10px;
-
-
+  margin-top: 5%;
 }
 .footertext{
   color: white;
@@ -69,7 +74,6 @@ footer{
 .index1{
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 100px;
   background-color: white;
   padding-left: 150px;
   padding-top: 50px;
@@ -77,13 +81,12 @@ footer{
 }
 
 .index2{
-
   background-color: rgb(38,50,64);
-  /*height: 150px;*/
   margin-left: 100px;
   margin-right: 100px;
   padding: 10px;
   opacity: .85;
+  position: relative;
 }
 
 .index3{
@@ -107,7 +110,6 @@ footer{
   font-family: 'Playfair Display', serif;
   line-height: 90px;
   color: white;
-
 }
 
 .about{
@@ -144,14 +146,8 @@ margin-left: -100px;
   margin-right: 150px;
 }
 
-.issues{
-  font-family: 'Playfair Display', serif;
-  margin-top: 60px;
-  font-size: 100px;
-}
-
 .center{
-  /*margin-left: -70px;*/
+  margin-left: -85%;
 }
 
 .posts{
@@ -182,18 +178,6 @@ margin-left: -100px;
 
 }
 
-.indexbackground{
-  background-image: url("https://bradbeaman.files.wordpress.com/2014/12/4.jpg");
-   min-width: 100%;
-   max-height: 400px;
-   min-height: 400px;
-    background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-
-}
-
-
 .travelhead{
   margin-left: 100px;
   margin-right: 150px;
@@ -205,10 +189,6 @@ margin-left: -100px;
   display: flex;
   margin-left: 100px;
   margin-right: 150px;
-}
-
-.travel3{
-  letter-spacing: -1PX;
 }
 
 .travel section{
@@ -257,7 +237,7 @@ HR{
 background-image: url("https://www.holidayguru.ie/wp-content/uploads/2017/01/Berlin-Germany-Shutterstock-161067611.jpg");
  max-width: 100%;
  max-height: 1000px;
-  background-position: center;
+  background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -85px;
@@ -343,11 +323,20 @@ text-align: center;
 }
 
 .geoghead{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 320px;
+  margin-right: 320px;
   margin-top: 100px;
-  line-height: 55px;
-
+  line-height: 45px;
+  font-size: 40px;
+  max-width: 65%;
+}
+#geoghead{
+  margin-left: 250px;
+  margin-right: 300px;
+  margin-top: 50px;
+  line-height: 45px;
+  font-size: 40px;
+  min-width: 65%;
 }
 
 .geog{
@@ -432,6 +421,9 @@ h3{
   .lvq{
     margin-top: -5%;
   }
+  .lvquote{
+    font-size: 40px;
+  }
 
 .new{
   display: flex;
@@ -468,6 +460,7 @@ text-align: center;
 }
 .northquote{
   margin-top: -6%;
+  font-size: 40px;
 }
 .northcaption{
   margin-left: 150px;
@@ -669,12 +662,15 @@ color: grey;
   margin-left: -120px;
 }
 .time{
-
   color: black;
   font-size: 18px;
   font-family: open sans;
   text-align: left;
-  /*margin-left: -120px;*/
+  margin-top: 5%;
+  display: flex;
+}
+.time section{
+  flex: 50%;
 }
 
 #demo, #demo1, #demo2, #demo3{
@@ -726,10 +722,11 @@ margin-top: 300px;
   color: white;
 }
 
-#position{
-  margin-top: 27.7%;
-}
 
+#position{
+  margin-top: 26.2%;
+  position: absolute;
+}
 
 #map {
   height: 700px;
@@ -750,6 +747,9 @@ margin-top: 300px;
   font-weight: bold;
   font-size: 24PX;
 }
+.boatquote{
+  font-size: 40px;
+}
 
 @media (max-width: 768px){
 
@@ -759,7 +759,6 @@ margin-top: 300px;
   }*/
 
 #menuhome{
-  visibility: hidden;
   margin-top: 200px;
 }
   .vidhome{
@@ -797,12 +796,12 @@ margin-top: 300px;
   }
 
   .top3{
-    margin-left: -50px;
+    margin-top: 70px;
+    margin-left: -60px;
     margin-right: -40px;
   }
 
   .center, .posts{
-    margin-left: 5%;
     font-size: 20px;
   }
 
@@ -837,6 +836,7 @@ margin-top: 300px;
   }
 
   .time {
+    margin-top: 30%;
     margin-left: -60%;
     margin-right: 40%;
     font-size: 14px;
@@ -869,6 +869,14 @@ margin-top: 300px;
     line-height: 100%;
     text-align: left;
   }
+  #geoghead{
+    margin-top: 10%;
+    font-size: 24px;
+    margin-left: -65%;
+    line-height: 120%;
+    text-align: left;
+    margin-right: -115%;
+  }
 
    .overlay1, .overlay2, .arrow{
     visibility: hidden;
@@ -897,24 +905,12 @@ margin-top: 300px;
   margin-right: 10%;
 }
 
-.titleair{
-    font-size: 20px;
-    text-align: left;
-    margin-left: -75px;
-    margin-right: 25px;
-    min-width: 300px;
-    margin-top: 30px;
-  }
-
   .travel-image{
     width: 100%;
     display: block;
     margin-left: 0;
   }
 
-  .bottom1{
-    height: 20px;
-  }
   .travelblock{
   min-width: 110%;
   }
@@ -927,7 +923,8 @@ margin-top: 300px;
     margin-left: 7%;
     line-height: 120%;
     text-align: left;
-    margin-right: 2%;
+    margin-right: -10px;
+    min-width: 90%;
   }
 
   .new{
@@ -1120,14 +1117,15 @@ h3{
   visibility: visible;
 }
 /*INDEX*/
-.indexbackground{
-  max-height: 202px;
-  min-height: 202px;
-}
+
 .index{
   min-width: 90%;
-  margin-left: 5%;
   line-height: 24px;
+  margin-left: -70%;
+}
+.all{
+  margin-left: -5%;
+  font-size: 34px;
 }
 footer{
   height: 30px;
@@ -1135,6 +1133,8 @@ footer{
 .footertext{
   font-size: 18px;
 }
+.time section{
+min-width: 60%;}
 
 /*INDIA*/
 .india-image{

@@ -157,6 +157,7 @@ margin-left: -100px;
 .posts{
   margin-left: -70px;
   font-weight: bold;
+  visibility: hidden;
 }
 
 .air{

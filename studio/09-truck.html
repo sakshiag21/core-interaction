@@ -99,50 +99,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.16/moment-timezone-with-data.min.js"></script>
 
   <script src="assets/js/main.js"></script>
-  <!-- <script>
-  fetch('https://api.sunrise-sunset.org/json?lat=22.572645&lng=88.363892&formatted=0')
-.then(function(response) {
-    // Get the response and format it to JSON
-    return response.json();
-})
-.then(function(jsonData) {
-    // log the data
-    render(jsonData);
-});
-
-var sunriseSpan = document.querySelector('.sunrise')
-var sunsetSpan = document.querySelector('.sunset')
-var sunriseDate = document.querySelector('.sunrise')
-var sunsetDate = document.querySelector('.sunset')
-
-
-
-function render(data){
-
-
-//log the data in its entirety
-console.log(data);
-//log current sunrise
-console.log(data.results.sunrise);
-var sunriseDate = new Date(data.results.sunrise)
-console.log(sunriseDate.getHours(), sunriseDate.getMinutes())
-//insert the  time
-sunriseSpan.innerText=sunriseDate
-
-//log sunset
-console.log(data.results.sunset);
-//insert the time
-console.log(data.results.sunset);
-var sunsetDate = new Date(data.results.sunset)
-console.log(sunsetDate.getHours(), sunsetDate.getMinutes())
-//insert the  time
-sunsetSpan.innerText=sunsetDate
-} -->
 
 <script>
-// set lattitude and longitude
-/* var lat = 22.609211;
-var lng = 88.407965; */
+
 var sunriseTime = document.querySelector('.sunrise')
 var sunsetTime = document.querySelector('.sunset')
 var sunriseDate = document.querySelector('.sunrise')
